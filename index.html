@@ -12,9 +12,19 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 </head>
 <body>
-<div id="gradient">
+<!--<div id="gradient">-->
 
 	<section class="projects">
+
+		<div class="skills">
+			<div class="skill">HTML5</div>
+			<div class="skill">CSS3</div>
+			<div class="skill">Responsive design</div>
+			<div class="skill">Vanilla JavaScript</div>
+			<div class="skill">IMDb API</div>
+			<div class="skill">Swiper library</div>
+			<div class="skill">GIT</div>
+		</div>
 
 		<!--singolo-->
 		<div class="project">
@@ -32,19 +42,19 @@
 					<div class="skill">Responsive design</div>
 					<div class="skill">Vanilla JavaScript</div>
 				</div>
-				<p>The website i built from ready layouts. Its fully responsive. Layouts includes a desktop,
-					a tablet (width: 768px), a mobile (width: 375px) versions; sliders and a mobile menu.
-					I used Google Chrome extension "Pixel Perfect" for fully consistent website with layouts.
+				<p>I have built these fully responsive website from ready layouts.
+					Layouts includes a desktop, a tablet (width: 768px), a mobile (width: 375px) versions; sliders and a mobile menu..
+					Google Chrome extension "Pixel Perfect" is used for fully consistent website with layouts.
 					CSS naming with BEM methodology (Block-Element__Modifier). CSS3 media queries.
-					I did a semantic HTML5 markup. </p>
-				<h4>I used JavaScript for:</h4>
+					Semantic HTML5 markup. </p>
+				<h4>JavaScript used for:</h4>
 				<ul>
 					<li>Keep colored the selected navigation link</li>
-					<li>Switch slides</li>
-					<li>Activation/ deactivation phones screens</li>
+					<li>Switching slides</li>
+					<li>Activation/ deactivation of phone screens</li>
 					<li>Portfolio tabs switching</li>
-					<li>The elected picture have the red border</li>
-					<li>The submit modal window</li>
+					<li>Red border on elected picture</li>
+					<li>Submit modal window</li>
 				</ul>
 
 				<div class="links">
@@ -71,15 +81,15 @@
 					<div class="skill">Swiper library</div>
 				</div>
 				<p>
-					The website receive data used the OMDb API. (OMDb is the Open Movie Database. The OMDb API is a RESTful web
-					service to obtain movie information.) User should write a word and get movies result contain the word in
-					titles.
-					I used Swiper library to create touch slider. To navigate user can use touch screen, arrows at keyboard,
-					mouse for arrows on screen. I built the website view according to my taste and understanding UX.
+					The website receives data via the OMDb API. (Open Movie Database). The OMDb API is a RESTful web
+					service to obtain movie information. User may search a word and receive movie results that contain the word in
+					their titles.
+					Swiper library is used to create touch sliders. Navigation via touch screen, keyboard arrows,
+					or mouse for arrows on screen. Website view built according to my personal preference and understanding UX.
 				</p>
 				<h4>I used JavaScript for:</h4>
 				<ul>
-					<li>Get a data from the IMDb server</li>
+					<li>Retrieve data from the IMDb server</li>
 					<li>Fill the slider with results</li>
 					<li>Build a progress bar</li>
 				</ul>
@@ -104,18 +114,78 @@
 					<div class="skill">Responsive design</div>
 					<div class="skill">Vanilla JavaScript</div>
 				</div>
-				<p>The goal was to create a calculator without using the build-in function eval(), which is have high security
-					risks for users. This task introduced to javascript numeric precision issues and ways to solve it.
-					The project can do more than tutorial examples. It calculate result only after
-					user push equal button. It make possible to calculate whole expression with arithmetic priority.
+				<p>The goal was to create a calculator without using the build-in function eval(), thus avoiding eval()'s
+					inherent high security risks to users. This task introduced to JavaScript numeric precision issues and ways to solve it.
+					The project goes beyond tutorial examples by its ability to calculate results only after
+					user pushes equal button. This makes calculating whole expression with arithmetic possible.
 				</p>
-				<p>I made visual design looks like real calculator I had in old time.</p>
+				<p>Visual design based on authentic old-time calculator.</p>
 				<div class="links">
 					<div class="link"><a href="#">more...</a></div>
 					<div class="link"><a href="https://solodliudmyla-calculator.netlify.app/">Calculator</a></div>
 					<div class="link"><a href="https://github.com/solodliudmyla/calculator">code</a></div>
 				</div>
 
+			</div>
+		</div>
+
+		<!--keyboard-->
+		<div class="project">
+			<div class="image"><a href="#"></a>
+			</div>
+			<div class="description">
+				<h3>Virtual keyboard</h3>
+				<h3>Falling Words Typing Game</h3>
+				<div class="skills">
+					<div class="skill">HTML5</div>
+					<div class="skill">CSS3</div>
+					<div class="skill">Responsive design</div>
+					<div class="skill">Vanilla JavaScript</div>
+					<div class="skill">ESLint</div>
+				</div>
+				<p>
+					Created Virtual Keyboard project and turned it to Falling Words Typing Game.
+					Keep index.html file is empty (all the necessary elements are generated with the usage of JS).
+					Pressing a key on a physical keyboard highlights the key on the virtual keyboard.
+					Keystrokes are animated.
+					Without any libraries or frameworks.
+					Use ESLint (eslint-config-airbnb-base).
+				</p>
+				<div class="links">
+					<div class="link"><a href="#">more...</a></div>
+					<div class="link"><a href="https://solodliudmyla-virtual-keyboard.netlify.app/">Keyboard</a></div>
+					<div class="link"><a href="https://github.com/solodliudmyla/virtual-keyboard">code</a></div>
+				</div>
+			</div>
+		</div>
+
+		<!--momentum clone-->
+		<div class="project">
+			<div class="image"><a href="#"></a>
+			</div>
+			<div class="description">
+				<h3>Momentum Clone</h3>
+				<div class="skills">
+					<div class="skill">HTML5</div>
+					<div class="skill">CSS3</div>
+					<div class="skill">Responsive design</div>
+					<div class="skill">Vanilla JavaScript</div>
+					<div class="skill">Openweather API</div>
+					<div class="skill">Forismatic API</div>
+				</div>
+				<p>
+					The goal was to create a clone of the productivity Chrome Extension
+					<a href="https://momentumdash.com/">Momentum</a> on JavaScript.<br>
+					Use LocalStorage for store user name, focus of day, city.<br>
+					Display weather through from <a href="https://openweathermap.org/api">Open Weather API</a>.<br>
+					Random quotes through from  <a href="https://favqs.com/"> Favorite Quotes API</a>.<br>
+					Show randomized wallpaper and greetings with user name depends of time.
+				</p>
+				<div class="links">
+					<div class="link"><a href="#">more...</a></div>
+					<div class="link"><a href="https://solodliudmyla-momentum.netlify.app/">Momentum clone</a></div>
+					<div class="link"><a href="https://github.com/solodliudmyla/momentum">code</a></div>
+				</div>
 			</div>
 		</div>
 
