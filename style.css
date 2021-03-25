@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	background-color: black;
+	cursor: none;
 }
 
 
@@ -88,30 +89,6 @@ img {
 .link {
 	display: inline-block;
 }
-
-/*
-
-#aura,#cursor{
-	position: absolute;
-	border-radius: 100%;
-	transition: .5s cubic-bezier(.75, -1.27, .3, 2.33) transform, .2s cubic-bezier(.75, -1.27, .3, 2.33) opacity;
-user-select: none;
-	pointer-events: none;
-	z-index: 10000;
-}
-#cursor{
-	width: 8px;
-	height: 8px;
-	background-color: rgba(0,0,0, 0.5);
-}
-#aura{
-	width: 46px;
-	height: 46px;
-	border: 1px solid rgba(0,0,0, 0.2);
-	background-color: rgba(0,0,0, 0.027);
-	transform: translate(5px, 5px);
-}
-*/
 
 
 .text3d {
