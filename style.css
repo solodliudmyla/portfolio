@@ -2,8 +2,9 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: black;
+	background-color: #CCC3B4;
 	cursor: none;
+	color: honeydew;
 }
 
 
@@ -37,9 +38,9 @@ img {
 }
 
 .project {
-	background-color: #65A3BE;
+	background-color: #837B74;
 	border: 1px solid black;
-	border-radius: 10px;
+	border-radius: 3px;
 	margin: 3rem;
 	padding: 2rem;
 	display: flex;
@@ -75,6 +76,7 @@ img {
 	display: inline-block;
 	border: 1px solid cadetblue;
 	background-color: honeydew;
+	color: #2c3e50;
 	margin-right: 4px;
 	padding-right: 7px;
 	padding-left: 7px;
