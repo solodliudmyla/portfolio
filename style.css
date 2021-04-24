@@ -2,20 +2,17 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: #CCC3B4;
 	cursor: none;
-	color: honeydew;
 }
 
 
-h3 {
+.h3 {
 	font-weight: 900;
 	text-align: center;
 	font-size: 50px;
 	text-transform: uppercase;
 	letter-spacing: 7px;
-	margin-top: -50px;
-	color: white;
+	margin: -50px auto 0 auto;
 }
 
 p {
@@ -38,8 +35,6 @@ img {
 }
 
 .project {
-	background-color: #837B74;
-	border: 1px solid black;
 	border-radius: 3px;
 	margin: 3rem;
 	padding: 2rem;
@@ -49,9 +44,9 @@ img {
 	justify-content: space-around;
 	transform-style: preserve-3d;
 	transform: perspective(500px);
+	box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
 	-webkit-box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
-	box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
 }
 
 .description h3 {
@@ -60,23 +55,20 @@ img {
 
 .description .skill {
 	transform: translateZ(20px);
+	box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.28);
 	-webkit-box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.28);
-	box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.28);
 }
 
 .image img {
 	transform: translateZ(100px);
+	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.28);
 	-webkit-box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.28);
-	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.28);
 }
 
 .skill {
 	display: inline-block;
-	border: 1px solid cadetblue;
-	background-color: honeydew;
-	color: #2c3e50;
 	margin-right: 4px;
 	padding-right: 7px;
 	padding-left: 7px;
@@ -97,4 +89,33 @@ img {
 	text-shadow: 0 0 0 rgb(225, 225, 225), 0 -1px 0 rgb(195, 195, 195), 0 -2px 0 rgb(165, 165, 165),
 	0 -3px 0 rgb(135, 135, 135), 0 -4px 0 rgb(105, 105, 105), 0 -5px 0 rgb(75, 75, 75), 0 -6px 5px rgba(0, 0, 0, 0.5),
 	0 -6px 1px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, .2);
+}
+body{
+	background-color:#000423 ;
+	color: honeydew;
+}
+.project {
+	background-color: #244C67;
+	border: 1px solid #000;
+}
+.skill {
+	border: 1px solid #244C67;
+	background-color: #C9C7CC;
+	color: #000;
+}
+
+.h3 {
+	color: #C9C7CC;
+}
+.link :link {
+	color:#000423 ;
+	margin-right: 15px;
+	text-decoration: none;
+}
+.link :visited{
+	color:#000423 ;
+}
+.link :hover{
+	border-bottom: 1px solid #000423;
+	transition: all 0.4s ease;
 }
