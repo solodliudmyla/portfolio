@@ -5,16 +5,6 @@ body {
 	cursor: none;
 }
 
-
-.h3 {
-	font-weight: 900;
-	text-align: center;
-	font-size: 50px;
-	text-transform: uppercase;
-	letter-spacing: 7px;
-	margin: -50px auto 0 auto;
-}
-
 p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -39,37 +29,47 @@ img {
 	margin: 3rem;
 	padding: 2rem;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	transform-style: preserve-3d;
-	transform: perspective(500px);
 	box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
 	-webkit-box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.28);
+	transform-style: preserve-3d;
+	transform: perspective(500px);
 }
-
-.description h3 {
-	transform: translateZ(50px);
+.project_name {
+	font-weight: 900;
+	text-align: center;
+	font-size: 70px;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin: -40px auto 0 auto;
+	text-shadow: 0 0 0 rgb(225, 225, 225), 0 -1px 0 rgb(195, 195, 195), 0 -2px 0 rgb(165, 165, 165),
+	0 -3px 0 rgb(135, 135, 135), 0 -4px 0 rgb(105, 105, 105), 0 -5px 0 rgb(75, 75, 75), 0 -6px 5px rgba(0, 0, 0, 0.5),
+	0 -6px 1px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, .2);
+	transform: translateZ(100px);
 }
 
 .description .skill {
-	transform: translateZ(20px);
 	box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.28);
 	-webkit-box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.28);
+	transform: translateZ(20px);
 }
 
 .image img {
-	transform: translateZ(100px);
 	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.28);
 	-webkit-box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.28);
+	transform: translateZ(100px);
+	margin-bottom: 30px;
 }
 
 .skill {
 	display: inline-block;
 	margin-right: 4px;
+	margin-bottom: 4px;
 	padding-right: 7px;
 	padding-left: 7px;
 	border-radius: 5px;
@@ -84,12 +84,6 @@ img {
 	display: inline-block;
 }
 
-
-.text3d {
-	text-shadow: 0 0 0 rgb(225, 225, 225), 0 -1px 0 rgb(195, 195, 195), 0 -2px 0 rgb(165, 165, 165),
-	0 -3px 0 rgb(135, 135, 135), 0 -4px 0 rgb(105, 105, 105), 0 -5px 0 rgb(75, 75, 75), 0 -6px 5px rgba(0, 0, 0, 0.5),
-	0 -6px 1px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, .2);
-}
 body{
 	background-color:#000423 ;
 	color: honeydew;
@@ -103,19 +97,21 @@ body{
 	background-color: #C9C7CC;
 	color: #000;
 }
-
-.h3 {
-	color: #C9C7CC;
+.project_name a{
+	color: #000423;
+	text-decoration: none;
 }
 .link :link {
-	color:#000423 ;
+	color: honeydew;
 	margin-right: 15px;
 	text-decoration: none;
 }
 .link :visited{
-	color:#000423 ;
+	color: honeydew;
 }
 .link :hover{
-	border-bottom: 1px solid #000423;
+	border-bottom: 1px solid blue;
 	transition: all 0.4s ease;
+	color: blue;
 }
+
