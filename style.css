@@ -93,9 +93,9 @@ body{
 	border: 1px solid #000;
 }
 .skill {
-	border: 1px solid #244C67;
-	background-color: #C9C7CC;
-	color: #000;
+	border: 1px solid #C9C7CC;
+
+	color:#C9C7CC;
 }
 .project_name a{
 	color: #000423;
@@ -115,3 +115,9 @@ body{
 	color: blue;
 }
 
+a{
+	color: honeydew;
+}
+a:hover{
+	color: blue;
+}
