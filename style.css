@@ -13,11 +13,6 @@ p {
 	letter-spacing: 1px;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 .projects {
 	margin: 0 3rem;
 	display: flex;
@@ -58,13 +53,15 @@ img {
 	transform: translateZ(20px);
 }
 
-.image img {
+ .myVideo {
 	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.28);
 	-webkit-box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.28);
 	-moz-box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.28);
 	transform: translateZ(100px);
-	margin-bottom: 30px;
 }
+ .video-wrapper{
+	 margin-bottom: 50px;
+ }
 
 .skill {
 	display: inline-block;
@@ -120,4 +117,9 @@ a{
 }
 a:hover{
 	color: blue;
+}
+.video-wrapper .myVideo{
+width: 70%;
+margin: 0 auto;
+	display: block;
 }
